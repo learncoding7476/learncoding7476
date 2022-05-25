@@ -1,0 +1,12 @@
+import java .util.Scanner ;
+class Number {
+public static void main(String[] args){
+int n;
+Scanner obj=new Scanner(System.in);
+System.out.println("Enter any number");
+n=obj.nextInt();
+n=n*50;
+System.out.println(n);
+
+}
+}
