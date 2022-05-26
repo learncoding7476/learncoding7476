@@ -1,0 +1,22 @@
+package com.company;
+/* To print an Array  */
+
+import java .util.Scanner;
+public class Traverse {
+    public static void main(String[] args){
+        int n ;
+        System.out.println("Enter the size of an array");
+        Scanner obj=new Scanner(System.in);  // object creation to take an input from user 
+        n=obj.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<arr.length;i++){
+           arr[i]= obj.nextInt();
+        }
+        System.out.println("Printed element");
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
+
+
+    }
+}
