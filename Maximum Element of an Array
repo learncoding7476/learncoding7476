@@ -1,0 +1,25 @@
+/* to find maximum element of an array */
+package com.company;
+import java.util.Scanner;
+
+public class Max_Elememt {
+    public static void main(String[] args)
+    {
+        int Size, max=0;
+        System.out.println("Enter the size of an array element :");
+        Scanner obj =new Scanner(System.in);
+        Size=obj.nextInt();
+        int arr[]=new int[Size];
+        for(int i=0;i<Size;i++){
+            arr[i]=obj.nextInt();
+        }
+        // logic of max element
+        //max=arr[0];
+        for(int i=0;i<Size;i++){
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+        System.out.println("The max element in the array is :"+max);
+    }
+}
