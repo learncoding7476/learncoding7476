@@ -1,0 +1,23 @@
+package com.company;
+/*   to print even array
+ Input->  [ 2,5,6,7,8]
+ Output-> [2,6,8]
+ */
+import java.util.Scanner;
+public class Even_array {
+    public static void main(String[] args){
+        int Size;
+        System.out.println("Enter the size of an array:");
+        Scanner obj=new Scanner(System.in);
+        Size=obj.nextInt();
+        int arr[]=new int[Size];
+        for(int i=0;i<Size;i++){
+            arr[i]= obj.nextInt();
+        }
+        for(int i=0;i<Size;i++){
+            if(arr[i]%2==0){
+                System.out.print(arr[i]+" ");
+            }
+        }
+    }
+}
