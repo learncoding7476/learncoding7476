@@ -1,0 +1,25 @@
+/* to find minimum element of an array */
+package com.company;
+import java.util.Scanner;
+public class Min_Element {
+    public static void main(String[] args){
+        int Size , min;
+        System.out.println("Enter size of an array: ");
+Scanner obj = new Scanner(System.in);
+Size =obj.nextInt();
+int arr[]=new int[Size];
+for(int i=0;i<Size;i++){
+    arr[i]=obj.nextInt();
+}
+min=arr[0];
+for(int i=1;i<Size;i++){
+    if(arr[i]<min){
+        min=arr[i];
+    }
+
+}
+        System.out.println("Minimum element of an array is "+min);
+
+    }
+}
+
