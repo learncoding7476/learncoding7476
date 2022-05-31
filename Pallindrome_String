@@ -1,0 +1,21 @@
+package com.company;
+import java.util.Scanner;
+public class Pa {
+    public static void main(String[] args) {
+        String str;
+        System.out.println("Enter any name:");
+        Scanner ob=new Scanner(System.in);
+        str=ob.nextLine();
+        String rev = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            rev = rev + str.charAt(i);
+
+        }
+        if (str.equals(rev)) {
+            System.out.println("Pallindrme ");
+
+        } else {
+            System.out.println("Not a Pallindrome");
+        }
+    }
+}
