@@ -1,0 +1,31 @@
+package com.company;
+import java.util.Scanner;
+public class Second_Largest_Element {
+    public static void main(String[] args) {
+        int size , max,max2=0;
+        System.out.println("Enter the size of an Array:");
+        Scanner obj = new Scanner(System.in);
+        size = obj.nextInt();
+        int arr[] = new int[size];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]= obj.nextInt();
+        }
+        max=arr[0];
+        // max value of an array
+        for(int i=1;i<arr.length;i++){
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+        System.out.println("The first largest element "+max);
+        // second largest element in an array
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>max2 && arr[i]!=max)
+            {
+                max2=arr[i];
+            }
+        }
+        System.out.println("second largest element "+max2);
+
+    }
+}
