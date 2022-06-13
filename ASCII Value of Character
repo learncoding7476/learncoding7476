@@ -1,0 +1,13 @@
+package com.company;
+// Print ASCII VALUE OF CHRACTER
+import java.util.Scanner ;
+public class Character {
+    public static void main(String[] args){
+      char ch;
+        System.out.println("Enter any Character ");
+      Scanner sc=new Scanner(System.in);
+      ch=sc.next().charAt(0);
+      int a=ch; // implicit casting
+        System.out.print("The ASCII value of "+ch+ " is "+a );
+    }
+}
