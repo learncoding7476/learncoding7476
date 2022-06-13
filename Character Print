@@ -1,0 +1,13 @@
+package com.company;
+/* Print character */
+// input - A =Output - A
+import java.util.Scanner;
+public class Char_Print {
+    public static void main(String[] args){
+        char a;
+        System.out.println("Enter any Character ");
+Scanner r=new Scanner(System.in);
+a=r.next().charAt(3);   // this is a method to print character .
+        System.out.println(a);
+    }
+}
