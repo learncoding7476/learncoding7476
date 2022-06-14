@@ -1,0 +1,22 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+/* Greatest number between largest two number */
+public class Main
+{
+	public static void main(String[] args) {
+	   int a=10, b=20;
+	   if(a>b){
+	       System.out.println(a+" is the largest number");
+	   }
+	   else{
+	       System.out.println(b+" is the largest number");	   }
+	 
+	    
+	
+	}
+}
