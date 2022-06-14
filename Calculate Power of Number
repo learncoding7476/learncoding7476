@@ -1,0 +1,19 @@
+package com.company;
+/*  Calculate Power of Number */
+// N=4 , P=3 Output=64
+import java.util.Scanner;
+public class Power {
+    public static void main(String[] args){
+     int N,P,result=1;
+        System.out.print("Enter Number");
+
+     Scanner sc=new Scanner(System.in);
+     N=sc.nextInt();
+        System.out.print("Enter Power ");
+     P=sc.nextInt();
+     for(int i=1;i<=P;i++){
+       result=result*N;
+     }
+        System.out.print("Power" +result);
+    }
+}
