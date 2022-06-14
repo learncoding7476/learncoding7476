@@ -1,0 +1,30 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+/*  Average of five number */
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	float N1,N2,N3,N4,N5;
+	float average,sum;
+	System.out.println("Enter  number");
+	Scanner obj=new Scanner(System.in);
+N1=obj.nextInt();
+N2=obj.nextInt();
+N3=obj.nextInt();
+N4=obj.nextInt();
+N5=obj.nextInt();
+
+sum=N1+N2+N3+N4+N5;
+average=sum/5;
+System.out.println(sum);
+System.out.println(average );
+	
+	}
+}
