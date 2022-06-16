@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+/* Eligiblity for Vote */
+import java.util.Scanner;
+public class Main{
+
+	public static void main(String[] args) {
+	   int N ;
+	   System.out.print("Enter age \n");
+	   Scanner ob=new Scanner(System.in);
+	   N=ob.nextInt();
+	   if(N>=18){
+	       System.out.print("Eligible for Vote. \n ");
+	   }
+	   else {
+	       System.out.print("Not Eligible. \n ");
+	   }
+	   System.out.println("Thank you.");
+
+        }
+
+    }
