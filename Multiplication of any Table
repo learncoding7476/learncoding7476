@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class Main{
 
 	public static void main(String[] args) {
-	    int N,sum;
+	    int N;
 	    System.out.println("Enter Any table ");
 	    Scanner ob=new Scanner(System.in);
 	    N=ob.nextInt();
 	 for(int i=1;i<=10;i++){
-	     sum=N*i;
-	     System.out.println(N +" * "+i+" = "+sum);
+	     
+	     System.out.println(N +" * "+i+" = "+N*i);
 	 }
         }
 
