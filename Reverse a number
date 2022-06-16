@@ -1,0 +1,21 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+/* Reverse a number */
+// Input -1234  output -4321
+public class Main
+{
+	public static void main(String[] args) {
+	    int N=1234,rev=0;
+	  
+		while(N!=0){
+		    rev=rev*10+N%10;
+		    N/=10;
+		}
+		System.out.println(rev);
+	}
+}
