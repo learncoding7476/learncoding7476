@@ -1,0 +1,42 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+/* calculate Tax in salary*/
+// i/p=<=10000 -> tax=10 % 
+// i/p= >10000 and < 100000 -> tax= 20%
+// i/p = >100000 -> tax 30%
+
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    int sal ; double tax;
+	    System.out.print("Enter Salary ");
+	    Scanner sc =new Scanner(System.in);
+	    sal=sc.nextInt();
+	    if(sal==10000){
+	        tax=sal*0.10;
+	        System.out.println("Salary "+sal+" tax "+tax);
+	    }
+	    else if(sal>10000 && sal<=100000)
+	    {
+	        tax=sal*0.20;
+	        System.out.println("Salary "+sal+" tax "+tax);
+	    }
+	    else if(sal>100000){
+	        tax=sal*0.30;
+	        System.out.println("Salary "+sal+" tax  "+tax);
+	    }
+	    else{
+	        System.out.println("Salary "+sal+" No tax ");
+	    }
+	    
+	    
+		
+	}
+}
